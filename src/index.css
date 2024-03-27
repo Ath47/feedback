@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply m-0 p-0;
+}
+
+body {
+    @apply bg-slate-800;
+}
+
+h2 {
+    @apply text-white mt-3 font-bold text-xl mb-3;
+}
+
+textarea {
+    @apply w-[400px] rounded-lg p-2 mt-4 h-[100px]; 
+}
+textarea:focus {
+    @apply outline-none border border-green-200
+}
+
+p {
+    @apply text-white text-lg 
+}
